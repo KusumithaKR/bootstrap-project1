@@ -1,0 +1,28 @@
+
+
+@media only screen and (min-width:270px) {
+    .child1{
+      padding-right: 70px;
+      
+   }
+    
+}
+@media only screen and (max-width:480px) {
+    .child2{
+        padding-right: 50px;
+       
+    }
+}
+@media only screen and (max-width:500px) {
+    .picture{
+        width: 110%;
+        margin-right:50px;
+        margin-left:70px;
+        
+    }
+    .picture2{
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}

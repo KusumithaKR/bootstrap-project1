@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+   <link rel="stylesheet" href="./stylee.css">
+    <title>Document</title>
+    <style>
+        /* .parent{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height:100vh;
+            background-color:black ;
+        } */
+        .child1{
+          
+           background-color: grey;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .child2{
+            padding: 20px;
+           background-color: lightgrey;
+            height: 500px;
+            
+        }
+        .cross{
+          margin-left: 95%;
+        }
+        .text{
+          margin-left: 40px;
+        }
+        .line{
+          margin-left: 40px;
+          margin-top: 10%;
+          text-align: center;
+        }
+    </style>
+</head>
+<body>
+        <div class="row" style="margin: 8%; ">  
+          <div class="child1 col-12 col-sm-12 col-md-6">
+              <div class="picture" style="margin-bottom: 20px;padding-right: 70px" >
+                 <img src="./asset/WhatsApp Image 2023-11-30 at 4.23.50 PM (1).jpeg" width="150%" height="50px" alt="">
+              </div> 
+              <div class="picture2">
+                <img src="./asset/WhatsApp Image 2023-11-30 at 4.23.50 PM.jpeg" width="130%"  height="300px" style="padding-right: 20px;" alt="">
+              </div> 
+           </div>
+          <div class="child2 col-12 col-sm-12 col-md-6">
+              <div class="cross" >
+                <i class="bi bi-x-lg" ></i>
+              </div>      
+              <div class="header" style="color: #e7714c;margin-top: 50px; margin-left: 40px;">
+                <h3>Login</h3>
+              </div>
+              <div class="text mt-4">
+                <form action="/action_page.php">
+                  <div class="input-group mb-3">
+                    <span class="input-group-text"><i class="bi bi-envelope"></i></span>
+                    <input type="email" class="form-control" placeholder="abc12@xyz.com" name="usrname">
+                  </div>
+              
+                  <div class="input-group mb-3">
+                    <span class="input-group-text"><i class="bi bi-wrench"></i></span>
+                    <input type="password" class="form-control" placeholder="........." name="email">
+                  </div>
+                </form>
+              </div> 
+              <div class="password " style="color:lightslategray;margin-left: 72%;">
+                <small>Forgot Password?</small>
+              </div>
+              <div class="get" style="background-color: #005f74; text-align: center;border-radius: 4px;margin-top: 15%;margin-left: 40px;">
+                <button type="button" class="btn text-white">Get OTP</button>
+              </div>
+              <div class="line">
+                <span style="color: #005f74;">Don't have an account? <strong style="color: #e7714c;">SIGN UP</strong> </p>
+              </div>
+          </div>
+        </div>  
+ 
+</body>
+</html>
